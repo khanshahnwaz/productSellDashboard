@@ -31,7 +31,7 @@ const Left = (props) => {
           <div className="flex lg:gap-x-4 lg:justify-start justify-between">
           <TbHexagonLetterO className=" lg:block hidden my-auto text-3xl text-white" />
 
-            <h1 className="text-white font-semibold text-left ">weframetech</h1>
+            <h1 className="text-white font-semibold text-left ">Dashboard</h1>
             <RxDoubleArrowLeft
               onClick={() => props.setControlSideBar("-left-[200%]")}
               className="cursor-pointer lg:hidden my-auto text-3xl font-bold text-white"
@@ -88,6 +88,7 @@ const Left = (props) => {
          
         </div>
         <div className="w-4/5 flex   justify-between gap-x-5 px-3 py-1 text-gray-300 absolute bottom-10 bg-[#5555bf] rounded-md">
+          <div className="flex justify-between gap-x-2">
           <img
                   className="my-auto h-10 rounded-full border-2 border-white"
                   src={user}
@@ -97,6 +98,8 @@ const Left = (props) => {
                 <p>Evano</p>
                 <small>Projet Manager</small>
               </div>
+          </div>
+        
               <MdKeyboardArrowDown className="my-auto text-xl text-[#7879f1]" />
             </div>
       </div>

@@ -17,14 +17,14 @@ const BarChart = () => {
     {month:'July'},
     {month:'Aug'},
     {month:'Sept'},
-    {month:'Oct'},
+    {month:'Oct',h:44},
     {month:'Nov'},
     {month:'Dec'}
     // Add more months and values as needed
   ];
 
   return (
-    <div className="w-full p-4 bg-white shadow rounded">
+    <div className=" p-4 bg-white shadow rounded">
         <div className='flex justify-between my-2'>
             <div>
                 <p className='font-bold text-xl'>Overview</p>
@@ -39,10 +39,10 @@ const BarChart = () => {
         </div>
       <div className=" flex justify-between h-max">
         {data.map(item => (
-          <div className=" items-center mb-4" key={item.month}>
+          <div className="  items-center mb-4 relative" key={item.month}>
             
-            <div className=" h-full w-2 ml-4 relative">
-              <div className={` h-44 bg-blue-300  w-8 rounded`}></div>
+            <div className=" h-full w-2 ml-4 ">
+              <div className={`a h-${item.h?item.h:'28'} bg-blue-300  w-8 rounded`}></div>
             </div>
             <div className="w-16 font-bold text-center">{item.month}</div>
            

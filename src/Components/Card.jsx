@@ -11,7 +11,7 @@ function Card(props) {
     <>
       <div className="border-gray-200 rounded-xl shadow-md hover:shadow-2xl sm:p-4 p-2 flex gap-x-3 justify-evenly ">
 
-      <div className={` h-28 w-1/2 rounded-full ${props.color}`}>
+      <div className={` h-20 w-1/2 rounded-full ${props.color}`}>
           {<props.img className={`my-auto text-4xl mx-auto h-full ${props.text}`}/>}
         </div>
 

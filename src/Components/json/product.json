@@ -1,0 +1,29 @@
+[
+    {
+    "Name":"Mufti Jeans",
+    "Description":"Stretchable  jeans",
+    "Stock":50,
+    "Price":"$120",
+    "Sale":12,
+    "image":"https://picsum.photos/200/100"
+},
+{
+    "Name":"Camera",
+    "Description":"Portrait special",
+    "Stock":30,
+    "Price":"$1200",
+    "Sale":30,
+    "image":"https://picsum.photos/200/100"
+},
+{
+    "Name":"Tshirt",
+    "Description":"Stretchable tshirt",
+    "Stock":29,
+    "Price":"$220",
+    "Sale":10,
+    "image":"https://picsum.photos/200/100"
+}
+
+
+
+]
