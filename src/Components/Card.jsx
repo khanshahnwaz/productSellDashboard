@@ -8,14 +8,14 @@ function Card(props) {
   
 
   return (
-    <>
-      <div className="border-gray-200 rounded-xl shadow-md hover:shadow-2xl sm:p-4 p-2 flex gap-x-3 justify-evenly ">
+    <div className="border-gray-200 border-1 rounded-xl shadow-2xl hover:shadow-xl  p-3 w-max xl:w-full">
+      <div className=" flex justify-evenly h-[200px] w-[400px] xl:w-full ">
 
-      <div className={` h-20 w-1/2 rounded-full ${props.color}`}>
+      <div className={` w-1/3 xl:w-1/2 my-auto h-3/5 xl:h-32 rounded-full ${props.color}`}>
           {<props.img className={`my-auto text-4xl mx-auto h-full ${props.text}`}/>}
         </div>
 
-        <div className="my-auto w-full ">
+        <div className=" my-auto ">
           <div className="sm:pr-5">
             <p>{props.Name}</p>
             <b className="text-2xl">{props.Amount}</b>
@@ -32,7 +32,7 @@ function Card(props) {
 
         
       </div>
-    </>
+    </div>
   );
 }
 

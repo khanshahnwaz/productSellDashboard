@@ -7,7 +7,7 @@ import {MdOutlineAccountBalanceWallet} from 'react-icons/md'
 import {LiaSalesforce} from 'react-icons/lia'
 const CardHolder = () => {
   return (
-    <div className='grid grid-cols-4 gap-x-10 overflow-x-scroll'>
+    <div className='flex xl:grid grid-cols-4 gap-x-3 overflow-x-scroll min-w-full xl:w-full xl:overflow-x-hidden'>
      <Card Name='Earnings' Amount='$198' up={true} color='bg-green-500' text='text-green-300' img={LuBadgeDollarSign}/>
      <Card Name='Orders' Amount='$2.4' color='bg-purple-300' text='text-purple-500' img={RxBorderSplit} />
 
