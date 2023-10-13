@@ -12,7 +12,8 @@ function App() {
 controlSideBar={controlSideBar}
 setControlSideBar={setControlSideBar}
 />
-<Dashboard/>
+<Dashboard
+setControlSideBar={setControlSideBar}/>
 
     </div>
    

@@ -40,7 +40,7 @@ const Left = (props) => {
           {/* designs that will be displayed on small scree size  */}
           <MobileViews />
           
-          <div className="text-sm space-y-6">
+          <div className="text-sm space-y-6 h-full my-2">
             
            
            
